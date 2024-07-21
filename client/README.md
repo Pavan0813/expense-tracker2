@@ -1,10 +1,12 @@
 # Download the Folder and Open in VS code
 # open Folder
 # cd backend
+  npm install
 # npm start 
    showing like mongodb connected
 # open new terminal
 # cd Client
+  npm install
 # npm start
  it goes to web browser 
  your enter this link (http://localhost:3000/dashboard)
