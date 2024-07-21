@@ -1,0 +1,112 @@
+/* .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+   }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+   App.css 
+  General Styles  */
+nav {
+    background-color: #ff45; /* Dark background for the navigation bar */
+    padding: 10px 20px; /* Add some padding */
+    color: #fff; /* White text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the items */
+    align-items: flex-start; /* Center items vertically */
+    margin-bottom: 20px; /* Margin below the navigation */
+  }
+  
+  nav a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 15px; /* Spacing between links */
+    font-size: 16px; /* Font size for links */
+  }
+  
+  nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  nav .logo {
+    font-size: 24px; /* Larger font size for the logo */
+    font-weight: bold; /* Bold text for the logo */
+  }
+  
+  nav .nav-links {
+    display: flex; /* Flexbox for navigation links */
+  }
+  
+  nav .nav-links li {
+    list-style: none; /* Remove bullet points */
+  }
+  
+  nav .nav-links li a {
+    padding: 10px; /* Add padding around the links */
+  }
+  
+  /* Responsive Design for Mobile Devices */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    nav .nav-links {
+      width: 100%; /* Full width for links container */
+      flex-direction: column; /* Stack links vertically */
+    }
+  
+    nav .nav-links li {
+      width: 20px; /* Full width for each link item */
+      text-align: center; /* Center text for each link item */
+    }
+  }
+  
+  
+   nav .button {
+    margin-right: 5px;
+    padding: 10px;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+   
